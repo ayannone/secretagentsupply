@@ -4,6 +4,7 @@ html {
 
 body {
   font-family: "Helvetica", sans-serif;
+  background-color: black;
   color: white;
 }
 
@@ -13,7 +14,7 @@ body {
 
 .flexrow {
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   align-items: center;
 }
 
@@ -21,7 +22,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /*align-items: center;*/
 }
 
 /* ************** */
@@ -29,7 +30,7 @@ body {
 /* ************** */
 
 .container {
-  /*background-color: blue;*/
+  /*background-color: green;*/
 
   width: 960px;
   margin: 0 auto;
@@ -40,7 +41,6 @@ body {
 /* *************** */
 
 #logo {
-  background-color: black;
   width: 100%;
 }
 
@@ -51,18 +51,28 @@ body {
 }
 
 #logo span {
-  padding: 0.66rem 0;
+  margin: 0.66rem 0;
 }
 
 #main-banner {
-
-
-}
-
-#main-banner .image-content {
   background: url("../images/moto.jpeg") no-repeat center;
   background-size: cover;
   height: 25rem;
+  width: 100%;
+}
+
+#main-banner-textbox {
+  background-color: black;
+  width: 20rem;
+  margin-top: 9rem;
+  padding: 2rem 3rem;
+  font-weight: bold;
+}
+
+#main-banner-textbox h2 {
+  font-size: 2rem;
+  margin-top: 0.25rem;
+
 }
 
 #nav {
@@ -74,11 +84,14 @@ body {
 /* main elements */
 /* ************* */
 
+#main {
+  background-color: white;
+}
 
 /* *************** */
 /* Footer elements */
 /* *************** */
 
 #copyright {
-  background-color: black;
+
 }
