@@ -79,12 +79,6 @@ body {
 #nav {
   background-color: firebrick;
   width: 100%;
-}
-
-nav {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
   padding: 0.75rem 0;
 }
 
@@ -100,11 +94,11 @@ nav span a {
 
 #main {
   background-color: white;
+  padding: 3rem 0 4rem;
 }
 
-.products {
-  /*display: inline-flex;
-  justify-content: space-between;*/
+#products {
+
 }
 
 .product {
@@ -114,7 +108,6 @@ nav span a {
 
 .product img {
   height: 9rem;
-  /*width: auto;*/
   padding: 2rem;
 }
 
@@ -124,16 +117,12 @@ nav span a {
   padding: 0.5rem 0;
 }
 
-.information {
-  /*display: inline-flex;*/
-  justify-content: space-between;
+#information {
+  margin-top: 3rem;
 }
 
 .infobox {
-  background-color: orange;
-
   width: 35%;
-  margin: 3rem 0 4rem; /* top - left + right - bottom */
 }
 
 .infobox span:first-of-type {
@@ -141,9 +130,17 @@ nav span a {
   padding: 1rem 0 1rem 2rem;
 }
 
+.infobox span:last-of-type {
+  color: black;
+}
+
 /* *************** */
 /* Footer elements */
 /* *************** */
+
+footer {
+  background-color: orange;
+}
 
 #copyright {
 
