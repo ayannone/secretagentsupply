@@ -22,7 +22,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /*align-items: center;*/
 }
 
 /* ************** */
@@ -30,8 +29,6 @@ body {
 /* ************** */
 
 .container {
-  background-color: green;
-
   width: 960px;
   margin: 0 auto;
 }
@@ -138,10 +135,6 @@ nav span a {
 /* Footer elements */
 /* *************** */
 
-footer {
-  background-color: orange;
-}
-
 #copyright {
-
+  height: 5rem;
 }
