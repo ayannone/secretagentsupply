@@ -145,6 +145,13 @@ nav span a {
   height: 5rem;
 }
 
+/* Set line-height of <span> equal to height of */
+/* surrounding div to vertically center it      */
+
+#copyright span {
+  line-height: 5rem;
+}
+
 
 /* ****************************************** */
 /* Styling for screens less than 1024px width */
@@ -233,6 +240,15 @@ nav span a {
 
   #information div:last-child {
     margin-top: 0.5rem;
+  }
+
+  /* to center the <span> inside the div horizontally use justify-content;   */
+  /* this is sufficient since the <span> is already centered vertically      */
+  /* through its line-height, which equals the height of the surrounding div */
+
+  #copyright {
+    display: flex;
+    justify-content: center;
   }
 
 }
