@@ -150,23 +150,6 @@ nav span a {
 /* Styling for screens less than 1024px width */
 /* ****************************************** */
 
-/* *************** */
-/* flex containers */
-/* *************** */
-
-/*.flexrow {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.flexbox {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}*/
-
-
 @media only screen and (max-width: 1024px) {
 
   body {
@@ -214,7 +197,7 @@ nav span a {
 /* Styling for screens less than 470px width */
 /* ***************************************** */
 
-/*@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 470px) {
 
   #main-banner {
     height: 15rem;
@@ -235,17 +218,21 @@ nav span a {
     font-size: 0.77rem;
   }
 
-  .products {
+  .product, .infobox {
     width: 90%;
+    margin: 0 auto;
   }
 
   .product.watch {
     display: none;
   }
 
-  .information {
-    display: flex;
+  #information {
     flex-wrap: wrap;
   }
 
-}*/
+  #information div:last-child {
+    margin-top: 0.5rem;
+  }
+
+}
