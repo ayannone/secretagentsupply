@@ -28,8 +28,11 @@ body {
 /* common classes */
 /* ************** */
 
+/* Changed   "width: 960px;" to   "max-width: 960px;" so the contents */
+/* will automatically shrink when the screen-size gets smaller in its */
+/* width   --   This is necessary for the media queries below.        */
 .container {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -147,6 +150,23 @@ nav span a {
 /* Styling for screens less than 1024px width */
 /* ****************************************** */
 
+/* *************** */
+/* flex containers */
+/* *************** */
+
+/*.flexrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}*/
+
+
 @media only screen and (max-width: 1024px) {
 
   body {
@@ -188,3 +208,44 @@ nav span a {
   }
 
 }
+
+
+/* ***************************************** */
+/* Styling for screens less than 470px width */
+/* ***************************************** */
+
+/*@media only screen and (max-width: 470px) {
+
+  #main-banner {
+    height: 15rem;
+  }
+
+  #main-banner-textbox {
+    width: 100%;
+    margin-top: 10rem;
+    padding: 1rem 2rem;
+  }
+
+  #main-banner-textbox h2 {
+    font-size: 1rem;
+    margin-top: 1.25rem;
+  }
+
+  #main-banner-textbox h3 {
+    font-size: 0.77rem;
+  }
+
+  .products {
+    width: 90%;
+  }
+
+  .product.watch {
+    display: none;
+  }
+
+  .information {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}*/
